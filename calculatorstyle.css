@@ -1,0 +1,94 @@
+body{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     background-color: rgb(85, 84, 84);
+     color: rgb(37, 37, 37);
+}
+.container{
+        height: 530px;
+        width: 300px;
+        box-shadow: 2px 2px 6px rgb(39, 39, 39),
+                     -2px -2px 6px rgb(150,150,150);
+        margin: auto;
+        margin-top: 50px;
+        border-radius: 10px;
+        padding-top: 20px;
+}
+.screen{
+         display: flex;
+         flex-wrap: wrap;
+         width: 95%;
+         margin: auto;
+         height: 100px;
+         background-color: rgb(88, 88, 88);
+         border-radius: 2px;
+         align-items: space-between;
+         box-shadow: inset 2px 3px 6px rgb(32, 32, 32),
+                     inset -3px -3px 4px rgb(150,150,150);
+}
+.screen > div{
+              width: 100%;
+              text-align: right;
+              font-size: 30px;
+               padding-right: 10px;
+               height: 25px;
+               padding-top: 10px;
+}
+#previous{
+           padding-top: 0px;
+}
+div.current-operand{
+               width: 73%;
+               margin-left: 20px;
+}
+#screen-operator{
+            width: 20px;
+            text-align: left;
+            padding-left: 10px;
+}
+.calculator-body{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            width: 95%;
+            margin: auto;
+            margin-top: 70px;
+}
+sup{
+     font-size: 10px;
+}
+.calculator-body > button{
+                     display: inline-block;
+                       margin: 5px;
+                       margin-top: 10px;
+                      width: 20%;
+                      padding: 5px;
+                      font-size: 20px;
+                      border: none;
+                      background-color:  rgb(85, 84, 84);
+                        box-shadow:  2px 3px 6px rgb(32, 32, 32),
+                                     -3px -3px 4px rgb(150,150,150);
+                      border-radius: 5px;
+}
+.calculator-body > button:active{
+   opacity: 0.4;
+}
+#clear{
+               color: rgb(187, 5, 5);
+               background-color: black;
+               padding: 8px;
+}
+
+#modulor{
+            color: rgb(189, 127, 14);
+}
+button.function{
+             color: rgb(189, 127, 14);
+             font-weight: normal;
+             font-style: italic;
+}
+button.function-delete{
+    color: rgb(12, 10, 141);
+    font-weight: bold;
+} 
