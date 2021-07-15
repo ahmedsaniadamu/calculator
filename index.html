@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>scientific calculator</title>
+     
+     <!-- style sheet-->
+
+      <link rel="stylesheet" href="./calculatorstyle.css">
+
+      <!-- *****  google font *****-->
+      
+      <link rel="stylesheet" 
+            href="https://fonts.googleapis.com/css?family=Oswald|Audiowide&effect=fire">
+</head>
+<body>
+     <div class="container">
+         <div class="screen">
+            <div id="previous" class="previous-operand"></div>
+            <div id="screen-operator" class="screen-operator"></div>
+            <div class="current-operand"></div>
+         </div>
+         <div class="calculator-body">
+             <button style="order:1;" id="clear" class="function-clear">clear</button>
+            <button style="order:2;" class="function inverse">x <sup>-1</sup></button>
+             <button style="order:3;" class="function p2">x <sup>2</sup></button>
+              <button style="order:4;" class="function p3">x <sup>3</sup></button>
+               <button style="order:5;" class="function sqrt">&#8730</button>
+                <button style="order:6;"  class="function qsqrt">&#8731</button>
+                <button  style="order:7;" class="function sin">sin</button>
+                 <button  style="order:8;" class="function cosine">cos</button>
+                  <button style="order:9;" class="function tan">tan</button>
+                   <button style="order:10;" id="modulor" class="operator modulor">mod</button>
+                    <button  style="order:11;" class="function inverse">|x|</button>
+                    <button style="order:13;" class="number">1</button>
+                    <button style="order:14;" class="number">2</button>
+                    <button style="order:17;"  class="number">3</button>    
+                     <button style="order:18;"  class="number">4</button>
+                    <button style="order:19;"  class="number">5</button>
+                    <button style="order:21;"  class="number">6</button>           
+                     <button  style="order:22;" class="number">7</button>
+                    <button style="order:23;"  class="number">8</button>
+                    <button style="order:25;"   class="number">9</button> 
+                     <button  style="order:26;"  class="number">0</button>
+                    <button  style="order:27;"    class="number">.</button>
+                    <button style="order:28;"    class="operator-equal">=</button>  
+                     <button  style="order:15;"    class="operator">+</button>
+                    <button style="order:16;"   class="operator minus">&#8722</button>
+                    <button style="order:20;"   class="operator">x</button>           
+                     <button style="order:24;"   class="operator">&#8763</button>
+                      <button style="order:12;"  class="function-delete">del</button>  
+         </div>
+     </div>
+    <script src="./calculatorscript.js"></script>
+</body>
+</html>
